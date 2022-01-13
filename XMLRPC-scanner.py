@@ -25,3 +25,5 @@ for auth_methods in find_authenticated_methods:
 	print(" \n")
 	
 test = input("Would you like to test the exploitability of these methods? Y/N: ")
+
+#make the calls and return output
