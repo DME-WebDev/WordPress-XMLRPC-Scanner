@@ -1,3 +1,5 @@
+# Server is telling us what methods are available. Doesn't tell us if authentication is enabled. 
+
 import xmlrpc.client
 
 print("URL Format: example.org\n")
