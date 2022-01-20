@@ -1,4 +1,4 @@
-# This works to test wp.GetUsersBlogs which is the most common xmlrpc brute force vector. Needs merged. 
+# This works to test wp.GetUsersBlogs which is the most common xmlrpc brute force vector. I think this should be sufficient for our use. 
 
 from wordpress_xmlrpc import Client
 from wordpress_xmlrpc.methods.users import GetUsersBlogs
