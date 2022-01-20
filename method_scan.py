@@ -1,4 +1,4 @@
-# Server is telling us what methods are available. Doesn't tell us if authentication is enabled. 
+# Server is telling us what methods are available and what methods require authentication. Does not test if authentication is enabled. 
 
 import xmlrpc.client
 
