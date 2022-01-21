@@ -2,7 +2,6 @@
 
 This is a WordPress XMLRPC scanner created by the DME Web Security team. It uses the Python xmlrpc.client library to make calls to test the exploitability of authenticated and pingback.ping methods. 
 
-Dependancies 
 
 1/21/2022
 method_scan.py only asks the server what XMLRPC methods are available then prints a list of methods that require authentication. 
