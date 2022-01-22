@@ -6,6 +6,8 @@ This is a WordPress XMLRPC scanner created by the DME Web Security team. It uses
 1/21/2022
 method_scan.py only asks the server what XMLRPC methods are available then prints a list of methods that require authentication. 
 method_test.py only tests wp.getUsersBlogs for now. 
+
+
 1/22/2022
 merged Chris Kropp's work with main, cleaned up code, and removed methods from authenticated_methods that were not easily testable with the libraries being used. 
 
